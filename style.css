@@ -3,3 +3,35 @@
     padding: 0;
 }
 
+header{
+    background-color: red;
+}
+
+nav{
+    text-align: center;
+}
+
+.pancarta{
+    background-color: blue;
+    text-align: center;
+}
+
+.latestrecipes{
+    background-color: red;
+    display: flex;
+    padding: 10%;
+    gap: 10%;
+}
+
+article{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.MostpopularR{   
+    background-color: red;
+    display: flex;
+    padding: 5%;
+    gap: 5%;
+    flex: 2;  /**encontrar la forma de que las columnas sean de dos**/
+}
