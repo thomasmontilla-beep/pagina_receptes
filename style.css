@@ -3,12 +3,29 @@
     padding: 0;
 }
 
+/**Header**/
+
 header{
-    background-color: red;
+    background-color: #D0ABF7;
+    display: flex;
+    padding: 1%;
+    border-bottom:solid;
+    border-width: 2px;
+    align-items: center;
 }
 
-nav{
-    text-align: center;
+.manusuperior{
+    padding-left: 2rem ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+}
+
+.imagenuser{
+    align-items: right;
 }
 
 .pancarta{
