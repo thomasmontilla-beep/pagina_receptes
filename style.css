@@ -8,7 +8,8 @@
 header{
     background-color: #D0ABF7;
     display: flex;
-    padding: 1%;
+    padding-left:1rem;
+    padding-right:1rem;
     border-bottom:solid;
     border-width: 2px;
     align-items: center;
@@ -24,13 +25,20 @@ a{
     padding-left: 1rem;
 }
 
-.imagenuser{
-    align-items: right;
+.imagenuser {
+    margin-left: auto;
 }
 
+/**Fin header**/
+/**Inicio de pancarta**/
+
 .pancarta{
-    background-color: blue;
     text-align: center;
+}
+
+.imagenfondo{
+    width: auto;
+    height: auto;
 }
 
 .latestrecipes{
